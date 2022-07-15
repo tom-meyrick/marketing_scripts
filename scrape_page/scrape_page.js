@@ -10,7 +10,7 @@
    It utilises Puppeteer to create a headless Chrome instance. 
    It's designed to work with UrlFetchApp and accepts a payload JSON containing a url and a selector.
 */
- exports.testNTPayment = (req, res) => {
+ exports.scrape_page = (req, res) => {
     const puppeteer = require('puppeteer'); 
            (async() => {
           let url = req.body.url;
