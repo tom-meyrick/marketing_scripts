@@ -6,7 +6,7 @@
  */
 
 /*
-   This script is designed to verify the existence of/return the contents of an on-page element. 
+   This Cloud Function script is designed to verify the existence of/return the contents of an on-page element. 
    It utilises Puppeteer to create a headless Chrome instance. 
    It's designed to work with UrlFetchApp and accepts a payload JSON containing a url and a selector.
 */
